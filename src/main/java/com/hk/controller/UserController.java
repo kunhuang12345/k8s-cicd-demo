@@ -15,5 +15,6 @@ public class UserController {
     public String users(Integer age){
         log.info("test:{}", age);
         return "<h1>all users: v1.0.2</h>";
+
     }
 }
